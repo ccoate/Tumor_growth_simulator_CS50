@@ -3,18 +3,6 @@
 #### Description: 
 This is a tumor growth simulation using Python and MATLAB. The simulation is projected onto a 2D grid (matplotlib), and is designed to model tumor invasion and motility given unlimited nutrients. Currently, I’m a Master’s student and researcher in Cancer Biology with a focus on Systems Biology, so this was my attempt to create a simple model tumor system in-silico. 
 
-Below is a depiction of the file tree structure.
-
-tumor-sim/
-|- README.md
-|- requirements.txt
-|- src/
-       |- config.py
-       |- sim.py
-       |- viz.py
-       |- run.py
-       |- init.py
-
 config.py: This file contains configuration parameters for the model. Notably, this include the size of the grid, the number of steps (timepoints), as well as parameters for nutrients and tumor cells. The arguments ‘seed’, ‘steps’, and ‘show_every’, the number of steps before an updated grid is rendered, are stored here as defaults but can be changed in the command line.
 
 sim.py: This file contains rules by which the model runs and cells interact. 
